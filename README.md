@@ -72,3 +72,31 @@ the labels will be saved in "yolov5/runs/detect/yolov5s/labels/" and "yolov5/run
 
 see more details in colab 
 https://colab.research.google.com/drive/1tnQbcZ0CpAIrBDii7-_HOfW7_zF-LoQM?authuser=1#scrollTo=otPgm84G8usO
+
+Labels coverting (yolo to coco)
+-------------
+first we need to move the detected labes folder (yolov5/runs/detect/yolov5s/labels/) to HW2_yolov5/
+
+```bash
+├── HW2_yolov5
+	  ├──labels
+	  	├── 117.txt
+		  ├── ...
+	  ├── mat2yolo.py
+  	├── yolo2coco.py
+  	├── ...
+├── yolov5
+├── train
+├── valid
+├── test
+└──data.yaml
+
+```
+
+use yolo2coco.py to covert labels
+```bash
+$ cd HW_yolov5
+$ python yolo2coco.py
+```
+
+and we can get result json in HW2_yolov5/annotations/answer.json
