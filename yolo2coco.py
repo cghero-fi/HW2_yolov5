@@ -68,7 +68,7 @@ def yolo2coco(arg):
 
     assert os.path.exists(root_path)
     originLabelsDir = "./labels"
-    originImagesDir = "./yolo_data/test/images"
+    originImagesDir = "../test/images"
     with open("./classes.txt") as f:
         classes = f.read().strip().split()
     indexes = os.listdir(originImagesDir)
