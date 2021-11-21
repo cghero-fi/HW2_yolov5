@@ -24,6 +24,11 @@ put all the images and labels in the format below
 also need to copy the file HW2_yolov5/data.yaml into this folder
 
 ```bash
+├── HW2_yolov5
+	├── mat2yolo.py
+  	├── yolo2coco.py
+  	├── ...
+	
 ├── yolov5
 	├── train.py
   	├── detect.py
