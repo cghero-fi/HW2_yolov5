@@ -56,8 +56,8 @@ also need to copy the file HW2_yolov5/data.yaml into this folder
 and use the train.py to training
 ```bash
 $ cd yolov5
-$ python train.py --img 512 --batch 32 --epochs 00 --data '../data.yaml' --cfg ./models/yolov5s.yaml --weights '' --name yolov5s --cache
-$ python train.py --img 512 --batch 32 --epochs 00 --data '../data.yaml' --cfg ./models/yolov5x.yaml --weights '' --name yolov5x --cache
+$ python train.py --img 512 --batch 32 --epochs 100 --data '../data.yaml' --cfg ./models/yolov5s.yaml --weights '' --name yolov5s --cache
+$ python train.py --img 512 --batch 32 --epochs 100 --data '../data.yaml' --cfg ./models/yolov5x.yaml --weights '' --name yolov5x --cache
 ```
 the weights will be saved in "yolov5/runs/train/yolov5s/weights/best.pt" and "yolov5/runs/train/yolov5x/weights/best.pt" 
 
