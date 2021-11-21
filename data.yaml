@@ -1,0 +1,6 @@
+train: ./yolo_data/train/images
+val: ./yolo_data/valid/images
+test: ./yolo_data/test/images
+
+nc: 10
+names: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
