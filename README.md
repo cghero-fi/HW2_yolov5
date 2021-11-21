@@ -25,7 +25,7 @@ also need to copy the file HW2_yolov5/data.yaml into this folder
 
 ```bash
 ├── yolov5
-	  ├── train.py
+	├── train.py
   	├── detect.py
   	├── ...
 	
@@ -81,7 +81,7 @@ first we need to move the detected labes folder (yolov5/runs/detect/yolov5s/labe
 ├── HW2_yolov5
 	  ├──labels
 	  	├── 117.txt
-		  ├── ...
+		├── ...
 	  ├── mat2yolo.py
   	├── yolo2coco.py
   	├── ...
