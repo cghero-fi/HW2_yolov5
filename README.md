@@ -79,6 +79,7 @@ see more details in colab
 https://colab.research.google.com/drive/1tnQbcZ0CpAIrBDii7-_HOfW7_zF-LoQM?authuser=1#scrollTo=otPgm84G8usO
 
 my best.pt can dowmload in yolov5/runs/train/weights/best.pt
+yolov5_hw5 link:
 https://drive.google.com/drive/folders/1L7RFPDkBf50XkbsbRMvPLf6fC_SJqO_2
 
 Labels coverting (yolo to coco)
